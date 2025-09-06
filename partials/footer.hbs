@@ -1,0 +1,16 @@
+<footer class="gh-inner gh-footer">
+    <div>
+        {{@custom.footer_left}}
+        {{#if @site.secondary_navigation}}
+        <nav class="gh-foot-menu">
+            {{navigation type="secondary"}}
+        </nav>
+        {{/if}}
+    </div>
+<div>
+        {{@custom.footer_center}}
+    </div>
+    <div>
+        {{@custom.footer_right}}
+    </div>
+</footer>
