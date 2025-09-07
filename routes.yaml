@@ -16,6 +16,10 @@ collections:
     permalink: /facilitators/{slug}/
     filter: tag:facilitator
     template: index
+  /fellows/:
+    permalink: /fellow/{slug}/
+    filter: tag:fellow
+    template: index
   # /:
   #   permalink: /{slug}/
   #   template: index
